@@ -2,14 +2,11 @@
     <html>
     <head>
         <title>Zuzu Shushi Restaurant</title>
-        <link href="sushi.css" rel="stylesheet">
+        <link href="zuzu.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     </head>
 
     <body>
-
-        <h1><a href="index.php">Zuzu Shushi Restaurant</a></h1>
-
             <?php
             // require "index.php";
             require('database.php');
@@ -22,6 +19,7 @@
             ?>
 
             <form id="orderform" method="post" target="_self">
+            <h1><a href="index.php">Zuzu Shushi Restaurant</a></h1>
                 <label for="name">Name:</label>
                 <input type="text" name="name" required value="" />
 
@@ -44,11 +42,7 @@
 
                 <label for="city">City:</label>
                 <input type="text" name="city" required value="" />
-            </form>
-
             <br>
-
-            <form method="post">
                 <select name="sushi_id">
                     <option selected disabled value="">Kies een sushi!</option>
                     <?php

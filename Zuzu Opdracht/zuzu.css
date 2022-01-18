@@ -1,0 +1,68 @@
+body {
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#orderform {
+    background-color: white;
+    width: 300px;
+    height: 410px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(129, 121, 121), -1px -1px 5px rgb(163, 113, 113);
+    height: 10%;
+    padding: 1%;
+  }
+  #orderform h1 { margin: 0; }
+  #orderform label, #orderform input, #orderform textarea {
+    width: 210px;
+    margin: 1% 5% 1% 12%;
+   height: 5%;
+   top: 5%;
+  }
+  #orderform input[type=submit] {
+    margin: 1% 13% auto;
+    height: 20px;
+    background: #00574f;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5%;
+    position: static;
+  }
+  
+  input{
+    position: relative;
+    background-color: #00574f;
+    top: 5%;
+  }
+  
+  select {
+    margin: 1% 30%;
+    background-color: rgba(0, 0, 0, 0.144);
+  }
+  /* (B) NOTIFICATION BAR */
+  .notify {
+    background: #d7ffe9;
+    margin:  auto ;
+    width: 15%;
+    font-weight: bold;
+  }
+  
+  
+  .hoeveelheid {
+  margin: 0% 40% auto;
+  }
+  
+  table{
+    border: 1px solid #000000;
+      background: #00574f;
+      margin: auto;
+      text-align: center;
+  }
+  
+  .notify{
+    background-color: #00574f;
+  }
